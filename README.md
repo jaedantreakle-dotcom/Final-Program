@@ -47,10 +47,5 @@ This approach satisfies the “simple chatbot” requirement without needing ext
 
 ## QR Code Implementation
 
-[The QR code is generated using the public `api.qrserver.com` endpoint:](https://qrco.de/bgUc59)
+[The QR code is generated using the public endpoint:](https://qrco.de/bgUc59)
 
-```js
-const portfolioUrl = "https://your-username.github.io/your-repo-name/";
-const qrApi = "https://api.qrserver.com/v1/create-qr-code/";
-const size = "200x200";
-const qrSrc = `${qrApi}?size=${size}&data=${encodeURIComponent(portfolioUrl)}`;
